@@ -30,7 +30,7 @@ Data Engineers: The company’s data engineers will enhance and maintain the OTC
 
 IT:  The information technology team will provide technical support for connectivity, set-up, and configuration of the system for us by traders and analysts. 
 
- 
+
 #Data Source
  
 The external data source for the OTC pricing pipeline project will be otcmarkets.com. The pipeline will extract data from this website, load that raw data into a cloud storage system and database, transform the data based on the requirements and data constraints of the company, and then serve it to traders and analysts through a business intelligence software platform. The first dataset we used for this project was 16gb. The dataset provided all the necessary fields however it did not have a readily available unique identifier for each record. Additionally many of the data types and formats needed to be altered significantly so as to fit with the requirements. Additionally, the dataset being very large proved to be problematic in loading all at once and required batch loading. We also had to thoroughly clean the dataset, removing null values, null columns, and duplicate records.
