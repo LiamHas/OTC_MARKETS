@@ -1,5 +1,3 @@
-# Analysis of the OTC Market Transaction.
-
 Chantal Villacres
 Xiashu Chu
 Weisui Xu
